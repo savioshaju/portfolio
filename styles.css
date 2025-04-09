@@ -19,7 +19,7 @@
 
 #back-buttton {
     background-color: rgb(0, 0, 0);
-    padding: 10px;
+    padding: 0px;
     margin-left: 10px;
     border-bottom: solid black;
 }
@@ -27,6 +27,7 @@
 #main {
     border: 1px solid rgb(0, 0, 0);
     padding: 0%;
+    padding: left 10px;
     margin-left: 10px;
     background-color: rgb(255, 255, 255);
 
@@ -42,16 +43,17 @@
 
 #Projects {
 
-    border: 1px solid rgb(248, 192, 192);
+    
     padding: 0px;
     margin-left: 10px;
-    background-color: rgb(184, 252, 152);
+    background-color: rgb(255, 255, 255);
 
 }
 
 #home {
     background-color: aquamarine;
-    border-bottom: solid black 3px;
+    border: 1px solid black;
+    border-bottom: 0px;
     padding: 10px;
     padding-bottom: 0%;
     margin-left: 10px;
@@ -87,23 +89,23 @@
 }
 
 #navigation {
-    border: 10px solid black;
-    background-color: black;
-    padding: 0;
-    margin-top: 0cm;
     margin-left: 10px;
+    background-color: black;
+    padding-top: 0px;
+    margin-top: 0px;
+    border-top: 0cm;
 
 }
 
 .nav-button {
-    margin-top: 0%;
+    margin-top: 0px;
     margin-bottom: 0%;
     border: none;
     background-color: black;
     color: white;
     padding: 5px;
     width: 190px;
-    height: 25px;
+    height: 50px;
     font: bold;
     font-size: medium;
 }
