@@ -12,24 +12,24 @@
     <meta property="og:type" content="profile" />
     <meta name="twitter:title" content="Savio Shaju | Portfolio">
     <meta name="twitter:description" content="Welcome to my portfolio">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/indexpagestyles.css">
 </head>
 
 
-<body>
+<body style="margin: 0px">
     <!-- Header Start -->
     <header>
         <div id="home">
-            <h1 style="margin-bottom: 0%;">Portfolio</h1>
+            <h1 style="margin: 0%;">Portfolio</h1>
         </div>
-        <nav id="navigation">
-            <a href="#About"><button class="nav-button">About</button></a>
-            <a href="Projects.html"><button class="nav-button">Projects</button></a>
-            <a href="Contact.html"><button class="nav-button">Contact</button></a>
-            <a href="#Service"><button class="nav-button">Service</button></a>
-        </nav>
-
     </header>
+        <div id="navigation-top">
+            <div><a href="#About"><button class="nav-button">About</button></a></div>
+            <div><a href="Projects.html"><button class="nav-button">Projects</button></a></div>
+            <div><a href="Contact.html"><button class="nav-button">Contact</button></a></div>
+            <div><a href="#Service"><button class="nav-button">Service</button></a></div>
+        </div>
+
     <!-- Header End -->
     <main id="main">
 
@@ -57,7 +57,7 @@
                         <strong>Java</strong>.
                         I enjoy working on projects that challenge my skills and help me grow as a developer.
                     </p>
-                    <h3 style="color: rgb(0, 0, 0);">Interests</h3>
+                    <h3 style="color: rgb(0, 0, 0); padding-top: 3rem; font-size: 1.7rem;">Interests</h3>
                     <ul id="About-para">
                         <li>Machine Learning & AI</li>
                         <li>Data Structures & Algorithms (DSA)</li>
@@ -65,20 +65,21 @@
                         <li>Code Debugging & Optimization</li>
                     </ul>
 
-                    <p style="text-align: justify; font-size: 19px;">Feel free to connect with me on
+                    <p style="text-align: justify; font-size: 19px;padding-top: 3rem; padding-bottom: 1rem; ">Feel free
+                        to connect with me on
                         social media:</p>
                     <div>
                         <a href="https://www.facebook.com/people/Savio-Shaju/pfbid02YPXDarz9KMAC9PF25euHMgQtUXgojVd47mZKMWTDZJpE7LCcgnfHUiEPhqVJT9jPl/"
                             target="_blank" class="fa fa-facebook">
-                            <img src="assets/images/Facebook_icon.png" width="35" alt="Facebook">
+                            <img id="Facebook-icon" src="assets/images/Facebook_icon.png" width="35" alt="Facebook">
                         </a>
                         <a href="https://www.linkedin.com/in/savio-shaju-81058528a/" target="_blank"
                             class="fa fa-linkedin">
-                            <img src="assets/images/LinkedIn_icon.png" width="35" alt="LinkedIn">
+                            <img id="LinkedIn-icon" src="assets/images/LinkedIn_icon.png" width="35" alt="LinkedIn">
                         </a>
                         <a href="https://www.instagram.com/_savio_shaju_?igsh=MTJmYnRza2M5eXIyMg==" target="_blank"
                             class="fa fa-instagram">
-                            <img src="assets/images/Instagram_icon.png" width="35" alt="Instagram">
+                            <img id="Instagram-icon" src="assets/images/Instagram_icon.png" width="35" alt="Instagram">
                         </a>
                     </div>
                 </div>
@@ -87,7 +88,7 @@
 
         <!-- banner end-->
         <!-- Service Start -->
-        <section id="Services" class="Services">
+        <section id="Services" class="Services" style="padding-bottom: 20px;">
             <h2 style="margin-bottom: 0%; color: rgb(5, 5, 5); " id="Service">Services</h2>
             <p class="services-message">
                 We offer cutting-edge solutions in web development, backend technologies, AI, and data structures to

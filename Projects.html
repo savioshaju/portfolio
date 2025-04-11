@@ -12,79 +12,86 @@
     <meta name="twitter:title" content="Savio Shaju | Portfolio | Projects">
     <meta name="twitter:description" content="My Projects">
     <meta name="twitter:image" content="https://cdn-icons-png.freepik.com/256/12148/12148682.png?semt=ais_hybrid">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/projectpagestyles.css">
 </head>
 
-<body></body>
-<!--Project start-->
-<section id="Projects" class="Projects">
-    <form action="">
+<body style="margin: 0%;">
+    <!--Project start-->
+    <h2 style="color: coral;  text-align: center; " id="project-title">My Projects</h2>
+    <section id="Projects" class="Projects">
+        <form action="">
+            <div>
+
+                <p style="font-size: 1.2rem; padding-top: 3rem;padding-bottom: 1.5rem;">Explore a collection of projects showcasing my skills and creativity in web development, and
+                    problem-solving.</p>
+            </div>
+            <!-- Project 1 start -->
+            <div id="project-container">
+
+                <div class="project1">
+
+                    <div>
+                        <h3>🧮 Calculator App</h3>
+                        <p>A basic calculator that performs addition, subtraction, multiplication, and division
+                            operations.
+                        </p>
+                        <img src="https://toytheater.com/wp-content/uploads/calculator.gif" width="300">
+                    </div>
+
+                    <div>
+                        <label for="rating1">Rate this Project:</label>
+                        <input type="range" id="rating1" name="rating1" min="0" max="5" step="1" value="3" required>
+                    </div>
+                </div>
+
+                <!-- Project 1 end-->
+                <br>
+                <!-- Project 2 start-->
+                <div class="project2">
+
+                    <div>
+                        <h3>🌤️ Weather Dashboard</h3>
+                        <p>Displays real-time weather updates using the OpenWeatherMap API.</p>
+                        <img src="https://img.freepik.com/premium-vector/weather-climate-vocabulary-with-cute-cartoon-characters-kids_535862-1422.jpg"
+                            frameborder="0" width="300">
+                    </div>
+                    <div>
+                        <label for="rating2">Rate this Project:</label>
+                        <input type="range" id="rating2" name="rating2" min="0" max="5" step="1" value="3" required>
+                    </div>
+                </div>
+                <!-- Project 2 end-->
+                <br>
+                <!-- Project 3 start-->
+                <div class="project3">
+
+                    <div>
+                        <h3>🚌 Bus Tracking App</h3>
+                        <p>Tracks buses in real-time using GPS data and displays their current locations on an
+                            interactive
+                            map.
+                        </p>
+                        <img src="https://transignllc.com/wp-content/uploads/2021/04/shutterstock_1340063369-scaled.jpg" width="300">
+                    </div>
+                    <div>
+                        <label for="rating3">Rate this Project:</label>
+                        <input type="range" id="rating3" name="rating3" min="0" max="5" step="1" value="3" required>
+                    </div>
+                </div>
+                <!-- Project 3 end -->
+            </div>
+            <br>
+            <button id="submit-button" type="submit">Submit</button>
+            <br>
+        </form>
+        <br>
+    </section>
+
+    <!-- Footer -->
+    <footer id="back-buttton">
         <div>
 
-            <h2 style="color: coral;  text-align: center; " id="project-title">My Projects</h2>
-            <p>Explore a collection of projects showcasing my skills and creativity in web development, and
-                problem-solving.</p>
-        </div>
-        <!-- Project 1 start -->
-        <div class="project1">
-
-            <div>
-                <h3>🧮 Calculator App</h3>
-                <p>A basic calculator that performs addition, subtraction, multiplication, and division operations.</p>
-                <img src="https://toytheater.com/wp-content/uploads/calculator.gif" width="300">
-            </div>
-
-            <div>
-                <label for="rating1">Rate this Project:</label>
-                <input type="range" id="rating1" name="rating1" min="0" max="5" step="1" value="3" required>
-            </div>
-        </div>
-
-        <!-- Project 1 end-->
-         <br>
-        <!-- Project 2 start-->
-        <div class="project2">
-
-            <div>
-                <h3>🌤️ Weather Dashboard</h3>
-                <p>Displays real-time weather updates using the OpenWeatherMap API.</p>
-                <img src="https://img.freepik.com/premium-vector/weather-climate-vocabulary-with-cute-cartoon-characters-kids_535862-1422.jpg"
-                    frameborder="0" width="300">
-            </div>
-            <div>
-                <label for="rating2">Rate this Project:</label>
-                <input type="range" id="rating2" name="rating2" min="0" max="5" step="1" value="3" required>
-            </div>
-        </div>
-        <!-- Project 2 end-->
-         <br>
-        <!-- Project 3 start-->
-        <div class="project3">
-
-            <div>
-                <h3>🚌 Bus Tracking App</h3>
-                <p>Tracks buses in real-time using GPS data and displays their current locations on an interactive map.
-                </p>
-                <img src="https://bluedot.me/site/wp-content/uploads/2016/09/map.png" width="700">
-            </div>
-            <div>
-                <label for="rating3">Rate this Project:</label>
-                <input type="range" id="rating3" name="rating3" min="0" max="5" step="1" value="3" required>
-            </div>
-        </div>
-        <!-- Project 3 end -->
-        <br>
-        <button type="submit" style="border: none; background-color: rgb(87, 253, 98);">Submit</button>
-        <br>
-    </form>
-    <br>
-</section>
-
-<!-- Footer -->
-<footer id="back-buttton">
-    <div>
-
-        <a href="index.html"><button class="nav-button"">Back to Home Page</button></a>
+            <a href="index.html"><button class="nav-button">Back to Home Page</button></a>
         </div>
     </footer>
 </body>

@@ -1,0 +1,92 @@
+* {
+    margin: 0%;
+    border: 0;
+    padding: 0;
+}
+
+
+#contact-form {
+    color: rgb(255, 77, 0);
+    padding-left: 20px;
+    padding-top: 25px;
+    font-size: 1.2rem;
+}
+
+#contactdetaill {
+
+    padding-left: 20px;
+}
+
+#back-buttton {
+    background-color: rgb(0, 0, 0);
+    padding: 0px;
+
+}
+
+
+#cancel-button:hover {
+    background-color: rgb(255, 4, 0);
+    color: rgb(0, 0, 0);
+
+}
+
+#submit-button:hover {
+    background-color: rgb(167, 252, 173);
+    color: rgb(0, 0, 0);
+
+}
+
+
+.nav-button {
+    margin-top: 0px;
+    margin-bottom: 0%;
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    width: 190px;
+    height: 50px;
+    font: bold;
+    font-size: medium;
+}
+.nav-button:hover {
+    background-color: gray;
+    color: white;
+    
+}
+
+#name,
+#email,
+#mobile,
+#subject,
+#message {
+    background-color:  rgb(255, 255, 255);
+    border-radius: 5px;
+    border-bottom: solid black 2px;
+    font-size: 1rem;
+    padding-top: 0.5rem;
+}
+#contact-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#contact-form-box {
+    
+    padding: 3rem;
+    border: solid rgb(0, 0, 0) 5px;
+    border-radius: .5rem;
+    background-color: white; 
+    margin-bottom: 1rem;
+}
+#navigation {
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+
+}
+button {
+    cursor: pointer;
+}

@@ -12,81 +12,88 @@
         type="image/x icon">
     <meta name="twitter:title" content="Savio Shaju | Portfolio | Contact">
     <meta name="twitter:description" content="Connect with Savio Shaju">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/contactpagestyles.css">
 
 </head>
 
-<body>
+<body id="contact-form-body">
     <!--Contact form start-->
     <main id="contact-form">
-        <h1 id="Contact-h">Contact Us</h1>
-        <form>
-            <div>
-                <label for="name">Name:</label>
-                &nbsp;<input id="name" name="name" type="text" placeholder="Enter your name" required>
-            </div>
-            <br>
+        <div id="contact-form-box">
+            <h1 id="Contact-h" style="margin: 0%; padding-bottom: 1rem;">Contact Us</h1>
+            <form>
+                <div>
+                    <label for="name">Name:</label>
+                    <br>
+                    &nbsp;<input id="name" name="name" type="text" placeholder="Enter your name" required>
+                </div>
+                <br>
 
-            <div>
-                <label for="email">Email:</label>
-                <input id="email" name="email" type="email" placeholder="Enter your email" required>
-            </div>
-            <br>
+                <div>
+                    <label for="email" st>Email:</label>
+                    <br>
+                    <input id="email" name="email" type="email" placeholder="Enter your email" required>
+                </div>
+                <br>
 
-            <div>
-                <label for="mobile">Mobile:</label>
-                <input id="mobile" name="mobile" type="tel" placeholder="Enter your mobile number" required
-                    pattern="[0-9]{10}" title="Enter a 10-digit number">
+                <div>
+                    <label for="mobile">Mobile:</label>
+                    <br>
+                    <input id="mobile" name="mobile" type="tel" placeholder="Enter your mobile number" required
+                        pattern="[0-9]{10}" title="Enter a 10-digit number">
 
-            </div>
-            <br>
+                </div>
+                <br>
 
-            <div>
-                <label for="subject">Subject:</label>
-                <input type="text" name="subject" id="subject" required minlength="10" required
-                    placeholder="Enter the subject">
-            </div>
-            <br>
+                <div>
+                    <label for="subject">Subject:</label>
+                    <br>
+                    <input type="text" name="subject" id="subject" required minlength="10" required
+                        placeholder="Enter the subject">
+                </div>
+                <br>
 
-            <div>
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" placeholder="Enter your message" required minlength="10" rows="10"
-                    cols="50"></textarea>
-            </div>
-            <br>
+                <div>
+                    <label for="message">Message:</label>
+                    <br>
+                    <textarea id="message" name="message" placeholder="Enter your message" required minlength="10"
+                        rows="10" cols="50"></textarea>
+                </div>
+                <br>
 
-            <div>
-                <button type="reset" style="border: none; background-color: rgb(253, 87, 87);">Cancel</button>
-                <button type="submit" style="border: none; background-color: rgb(87, 253, 98);">Submit</button>
-            </div>
-            <br>
-        </form>
+                <div>
+                    <button id="cancel-button" type="reset">Cancel</button>
+                    <button id="submit-button" type="submit">Submit</button>
+                </div>
+                <br>
+            </form>
+        </div>
     </main>
 
-    <section id="contactdetaill">
-        <div>
-            <br>
-            <p>Feel free to connect with me on social media:</p>
-            <a href="https://www.facebook.com/people/Savio-Shaju/pfbid02YPXDarz9KMAC9PF25euHMgQtUXgojVd47mZKMWTDZJpE7LCcgnfHUiEPhqVJT9jPl/"
-                target="_blank" class="fa fa-facebook">
-                <img src="assets/images/Facebook_icon.png" width="35" alt="Facebook">
-            </a>
-            <a href="https://www.linkedin.com/in/savio-shaju-81058528a/" target="_blank" class="fa fa-linkedin">
-                <img src="assets/images/LinkedIn_icon.png" width="35" alt="LinkedIn">
-            </a>
-            <a href="https://www.instagram.com/_savio_shaju_?igsh=MTJmYnRza2M5eXIyMg==" target="_blank"
-                class="fa fa-instagram">
-                <img src="assets/images/Instagram_icon.png" width="35" alt="Instagram">
-            </a>
-        </div>
-        <br>
-    </section>
+    
 
     <!--Contact form end-->
 </body>
 <footer id="back-buttton">
     <div>
-
+        <section id="contactdetaill">
+            <div>
+                <br>
+                <p style="color: white; font-size: 1rem; padding-bottom : .2rem;">Feel free to connect with me on social media:</p>
+                <a href="https://www.facebook.com/people/Savio-Shaju/pfbid02YPXDarz9KMAC9PF25euHMgQtUXgojVd47mZKMWTDZJpE7LCcgnfHUiEPhqVJT9jPl/"
+                    target="_blank" class="fa fa-facebook">
+                    <img src="assets/images/Facebook_icon.png" width="35" alt="Facebook">
+                </a>
+                <a href="https://www.linkedin.com/in/savio-shaju-81058528a/" target="_blank" class="fa fa-linkedin">
+                    <img src="assets/images/LinkedIn_icon.png" width="35" alt="LinkedIn">
+                </a>
+                <a href="https://www.instagram.com/_savio_shaju_?igsh=MTJmYnRza2M5eXIyMg==" target="_blank"
+                    class="fa fa-instagram">
+                    <img src="assets/images/Instagram_icon.png" width="35" alt="Instagram">
+                </a>
+            </div>
+            <br>
+        </section>
         <a href="index.html"><button class="nav-button">Back to Home Page</button></a>
     </div>
 </footer>

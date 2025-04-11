@@ -1,132 +1,17 @@
-#contact-form {
-    color: rgb(129, 114, 243);
-    padding: 10px;
-    margin-left: 10px;
-    border-top: solid black;
-    border-right: solid black;
-    border-left: solid black;
-    background-color: rgb(218, 248, 162);
-    width: 100e;
-}
-
-#contactdetaill {
-    background-color: rgb(254, 216, 216);
-    padding: 10px;
-    margin-left: 10px;
-    border-right: solid black;
-    border-left: solid black;
-}
-
-#back-buttton {
-    background-color: rgb(0, 0, 0);
-    padding: 0px;
-    margin-left: 10px;
-    border-bottom: solid black;
-}
-
-#main {
-    border: 1px solid rgb(0, 0, 0);
-    padding: 0%;
-    padding: left 10px;
-    margin-left: 10px;
-    background-color: rgb(255, 255, 255);
-
-}
-
-#Service {
-    text-align: center;
-}
-
-#about-tittle {
-    text-align: center;
-}
-
-#Projects {
-
-    
-    padding: 0px;
-    margin-left: 10px;
-    background-color: rgb(255, 255, 255);
-
-}
-
-#home {
-    background-color: aquamarine;
-    border: 1px solid black;
-    border-bottom: 0px;
-    padding: 10px;
-    padding-bottom: 0%;
-    margin-left: 10px;
-}
-
-#Service,
-#about-tittle,
-#project-title {
-    background-color: antiquewhite;
-    border: 0cap;
-    margin-top: 0%;
-    margin-left: 0%;
-    padding-bottom: 10px;
-    padding-top: 10px;
-
-    color: black;
-}
-
-.service4,
-.service3,
-.service2,
-.service1 {
-    padding-left: 20px;
-    border: solid black;
-    margin: 0%;
-}
-
-.project3,
-.project2,
-.project1 {
-    padding-left: 20px;
-    border: solid black;
-}
-
 #navigation {
-    margin-left: 10px;
+    border: solid black 1px;
+    display: flex;
+    justify-content: space-evenly;
     background-color: black;
-    padding-top: 0px;
-    margin-top: 0px;
-    border-top: 0cm;
-
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
 }
 
 .nav-button {
-    margin-top: 0px;
-    margin-bottom: 0%;
+    background-color: white;
+    padding: 0.5rem 1rem;
     border: none;
-    background-color: black;
-    color: white;
-    padding: 5px;
-    width: 190px;
-    height: 50px;
-    font: bold;
-    font-size: medium;
-}
-
-.nav-button:hover {
-    background-color: gray;
-    color: white;
-
-}
-
-#About-body {
-    padding: 20px;
-}
-
-#About-para {
-    font-weight: bold;       
-    text-align: justify;
-    font-size: 20px;
-}
-
-.services-message {
-    padding-left: 20px;
-    font-size: 15px;
+    cursor: pointer;
 }

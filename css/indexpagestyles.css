@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+#navigation-top {
+    background-color: black;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+#navigation {
+    background-color: black;
+    padding-top: 0;
+    margin-top: 0;
+    border-top: 0;
+}
+
+.nav-button {
+    margin-top: 0px;
+    margin-bottom: 0%;
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    width: 190px;
+    height: 50px;
+    font: bold;
+    font-size: medium;
+}
+
+.nav-button:hover {
+    background-color: gray;
+    color: white;
+}
+
+#About-body {
+    padding: 2rem;
+}
+
+#About-para {
+    font-weight: bold;
+    text-align: justify;
+    font-size: 1.25rem;
+}
+
+.services-message {
+    padding-left: 1.5rem;
+    font-size: 1rem;
+}
+
+#Service,
+#about-tittle {
+    background-color: antiquewhite;
+    border: none;
+    margin-top: 0;
+    margin-left: 0;
+    padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
+    text-align: center;
+}
+
+#home {
+    background-color: aquamarine;
+    border: none;
+    margin-top: 0;
+    border-bottom: none;
+    height: 3rem;
+    padding: 2rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 0;
+}
+
+.service4,
+.service3,
+.service2,
+.service1 {
+    padding: 1.5rem;
+    transition: background-color 0.3s ease;
+    color: black;
+    border: solid black 0.125rem;
+    margin: 1rem;
+    width: 20rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.services-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+
+.service4:hover,
+.service3:hover,
+.service2:hover,
+.service1:hover {
+    background-color: rgb(176, 184, 184);
+}
+
+.services-message {
+    padding: 1rem;
+    font-size: 1rem;
+}
+
+#back-buttton {
+    background-color: black;
+    padding: 0rem;
+}
+
+#cancel-button:hover {
+    background-color: rgb(255, 4, 0);
+    color: black;
+}
+
+#submit-button:hover {
+    background-color: rgb(167, 252, 173);
+    color: black;
+}
