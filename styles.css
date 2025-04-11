@@ -1,17 +1,191 @@
+
+#contact-form {
+    color: rgb(255, 77, 0);
+    background-color: rgb(218, 248, 162);
+    padding-left: 20px;
+    padding-top: 25px;
+}
+
+#contactdetaill {
+    background-color: rgb(254, 216, 216);
+    padding-left: 20px;
+}
+
+#back-buttton {
+    background-color: rgb(0, 0, 0);
+    padding: 0px;
+
+}
+
+#main {
+
+
+    background-color: rgb(255, 255, 255);
+
+}
+
+#Service {
+    text-align: center;
+}
+
+#about-tittle {
+    text-align: center;
+}
+
+#Projects {
+
+
+    padding: 20px;
+    padding-bottom: 0px;
+    padding-top: 0%;
+    border: 0px;
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+
+}
+
+#home {
+    background-color: aquamarine;
+    border: 0px;
+    margin-top: 0%;
+    border-bottom: 0px;
+    height: 55px;
+    padding: 8px;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-bottom: 0%;
+
+}
+
+#Service,
+#about-tittle,
+#project-title {
+    background-color: antiquewhite;
+    border: 0cap;
+    margin-top: 0%;
+    margin-left: 0%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+
+
+
+
 #navigation {
-    border: solid black 1px;
-    display: flex;
-    justify-content: space-evenly;
+
     background-color: black;
-    padding: 1rem;
-    position: sticky;
-    top: 0;
-    z-index: 999;
+    padding-top: 0px;
+    margin-top: 0px;
+    border-top: 0cm;
+
 }
 
 .nav-button {
-    background-color: white;
-    padding: 0.5rem 1rem;
+    margin-top: 0px;
+    margin-bottom: 0%;
     border: none;
-    cursor: pointer;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    width: 190px;
+    height: 50px;
+    font: bold;
+    font-size: medium;
+}
+
+.nav-button:hover {
+    background-color: gray;
+    color: white;
+
+}
+
+#About-para {
+    font-weight: bold;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.services-message {
+    padding-left: 20px;
+    font-size: 15px;
+}
+
+#About-body {
+    padding: 20px;
+}
+
+#contact-form-body {
+    margin: 0%;
+    border: 0px;
+}
+
+
+#submit-button,
+#cancel-button {
+    border: solid black 1px;
+    background-color: rgb(253, 253, 253);
+    color: rgb(0, 0, 0);
+    width: 100px;
+    height: 30px;
+    font-weight: bold;
+    border-radius: 50%;
+
+}
+
+#cancel-button:hover {
+    background-color: rgb(255, 4, 0);
+    color: rgb(0, 0, 0);
+
+}
+
+#submit-button:hover {
+    background-color: rgb(167, 252, 173);
+    color: rgb(0, 0, 0);
+
+}
+.service4,
+.service3,
+.service2,
+.service1 {
+    padding-left: 20px;
+
+    transition: background-color 0.3s ease;
+    color: black;
+    height: 300px;
+    width: 450px;
+    border: solid black 2px;
+
+    margin: 0%;
+}
+.services-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.service4:hover,
+.service3:hover,
+.service2:hover,
+.service1:hover {
+   background-color: rgb(176, 184, 184);
+}
+#project-container {
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+
+.project3,
+.project2,
+.project1 {
+    
+    transition: background-color 0.3s ease;
+    color: black;
+    height: 500px;
+    width: 450px;
+    border: solid black 2px;
+    margin: 0%;
+    text-align: justify;
+    padding: 5px;
 }

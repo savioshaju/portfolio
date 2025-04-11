@@ -128,3 +128,15 @@
     background-color: rgb(167, 252, 173);
     color: black;
 }
+
+#submit-button,
+#cancel-button {
+    border: solid black 1px;
+    background-color: rgb(253, 253, 253);
+    color: rgb(0, 0, 0);
+    width: 100px;
+    height: 30px;
+    font-weight: bold;
+    border-radius: 50%;
+
+}

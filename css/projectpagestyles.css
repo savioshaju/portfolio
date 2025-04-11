@@ -16,6 +16,8 @@
 #project-container {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: stretch;
    
 }
 .project3,
@@ -45,6 +47,7 @@
     border: 0px;
     margin: 0px;
     background-color: rgb(255, 255, 255);
+    
 }
 
 #back-buttton {
@@ -94,4 +97,16 @@
     background-color: gray;
     color: white;
     
+}
+
+#submit-button,
+#cancel-button {
+    border: solid black 1px;
+    background-color: rgb(253, 253, 253);
+    color: rgb(0, 0, 0);
+    width: 100px;
+    height: 30px;
+    font-weight: bold;
+    border-radius: 50%;
+
 }
