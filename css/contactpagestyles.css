@@ -7,8 +7,7 @@
 
 #contact-form {
     color: rgb(255, 77, 0);
-    padding-left: 20px;
-    padding-top: 25px;
+
     font-size: 1.2rem;
 }
 
@@ -44,9 +43,12 @@
     background-color: black;
     color: white;
     padding: 5px;
-    width: 190px;
-    height: 50px;
+    width: 10rem;
+    height: 3rem;
     font: bold;
+    margin: auto;
+    box-sizing: border-box;
+    cursor: pointer;
     font-size: medium;
 }
 .nav-button:hover {
