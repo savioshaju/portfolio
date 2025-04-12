@@ -23,12 +23,12 @@
             <h1 style="margin: 0%;">Portfolio</h1>
         </div>
     </header>
-        <div id="navigation-top">
-            <div><a href="#About"><button class="nav-button-top">About</button></a></div>
-            <div><a href="Projects.html"><button class="nav-button-top">Projects</button></a></div>
-            <div><a href="Contact.html"><button class="nav-button-top">Contact</button></a></div>
-            <div><a href="#Service"><button class="nav-button-top">Service</button></a></div>
-        </div>
+    <div id="navigation-top">
+        <div><a href="#About"><button class="nav-button-top">About</button></a></div>
+        <div><a href="Projects.html"><button class="nav-button-top">Projects</button></a></div>
+        <div><a href="Contact.html"><button class="nav-button-top">Contact</button></a></div>
+        <div><a href="#Service"><button class="nav-button-top">Service</button></a></div>
+    </div>
 
     <!-- Header End -->
     <main id="main">
@@ -38,33 +38,37 @@
             <section id="About">
                 <h2 style="color: rgb(0, 0, 0);" id="about-tittle">About Me</h2>
                 <div id="About-body">
-
-                    <div style="text-align: center;">
-                        <img src="assets/images/savio.jpg" alt="Profile Picture" width="100" height="130"
-                            style="margin-right: 10px;">
+                    <div id="About-main-body">
+                        <div id="About-body-image"
+                        style="text-align: center;">
+                            <img src="assets/images/savio.jpg" alt="Profile Picture" height="200rem"
+                                style="border-radius: 50rem;">
+                        </div>
+                        <div>
+                            <p id="About-para">
+                                Hello! I'm Savio Shaju, a second-year Computer Science and Engineering student at
+                                Saintgits
+                                College
+                                of
+                                Engineering.
+                                I’m passionate about coding, problem-solving, and building innovative solutions.
+                            </p>
+                            <p id="About-para">
+                                I have a strong foundation in programming languages like
+                                <strong>HTML</strong>,<strong>C</strong>,
+                                and
+                                <strong>Java</strong>.
+                                I enjoy working on projects that challenge my skills and help me grow as a developer.
+                            </p>
+                            <h3 id="About-para" style="color: rgb(255, 255, 255); padding-top: 1rem; font-size: 1.5rem; ">Interests</h3>
+                            <ul id="About-para" style="padding-left: 2rem;">
+                                <li>Machine Learning & AI</li>
+                                <li>Data Structures & Algorithms (DSA)</li>
+                                <li>Stacks, Queues, and Linked Lists</li>
+                                <li>Code Debugging & Optimization</li>
+                            </ul>
+                        </div>
                     </div>
-                    <p id="About-para">
-                        Hello! I'm Savio Shaju, a second-year Computer Science and Engineering student at Saintgits
-                        College
-                        of
-                        Engineering.
-                        I’m passionate about coding, problem-solving, and building innovative solutions.
-                    </p>
-                    <p id="About-para">
-                        I have a strong foundation in programming languages like
-                        <strong>HTML</strong>,<strong>C</strong>,
-                        and
-                        <strong>Java</strong>.
-                        I enjoy working on projects that challenge my skills and help me grow as a developer.
-                    </p>
-                    <h3 style="color: rgb(0, 0, 0); padding-top: 3rem; font-size: 1.7rem;">Interests</h3>
-                    <ul id="About-para">
-                        <li>Machine Learning & AI</li>
-                        <li>Data Structures & Algorithms (DSA)</li>
-                        <li>Stacks, Queues, and Linked Lists</li>
-                        <li>Code Debugging & Optimization</li>
-                    </ul>
-
                     <p style="text-align: justify; font-size: 19px;padding-top: 3rem; padding-bottom: 1rem; ">Feel free
                         to connect with me on
                         social media:</p>
@@ -88,7 +92,7 @@
 
         <!-- banner end-->
         <!-- Service Start -->
-        <section id="Services" class="Services" style="padding-bottom: 20px;">
+        <section id="Services" class="Services" >
             <h2 style="margin-bottom: 0%; color: rgb(5, 5, 5); " id="Service">Services</h2>
             <p class="services-message">
                 We offer cutting-edge solutions in web development, backend technologies, AI, and data structures to
@@ -103,7 +107,7 @@
                         alt="Frontend Development">
                     <p>Building responsive, user-friendly websites using HTML and CSS.</p>
                 </div>
-                
+
                 <div class="service2">
                     <h3 id="Service-H">Backend Development</h3>
                     <img src="https://cdn-icons-png.flaticon.com/512/3031/3031530.png" width="100"

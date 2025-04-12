@@ -42,18 +42,23 @@
 }
 
 #About-body {
-    padding: 2rem;
+    padding: 1rem;
+    background: linear-gradient(65deg, rgb(8, 8, 8) 20%, rgb(93, 72, 246) 70%, rgb(162, 163, 237) 100%);
+    color: white;
 }
 
 #About-para {
     font-weight: bold;
     text-align: justify;
     font-size: 1.25rem;
+    padding-left: 1rem;
 }
 
 .services-message {
     padding-left: 1.5rem;
     font-size: 1rem;
+    background-color: black;
+    color: white;
 }
 
 #Service,
@@ -85,8 +90,8 @@
 .service1 {
     padding: 1.5rem;
     transition: background-color 0.3s ease;
-    color: black;
-    border: solid black 0.125rem;
+    color: rgb(255, 255, 255);
+    border: solid rgb(255, 255, 255) 0.125rem;
     margin: 1rem;
     width: 20rem;
     box-sizing: border-box;
@@ -102,13 +107,15 @@
     justify-content: space-evenly;
     flex-wrap: wrap;
     align-items: stretch;
+    background-color: black;
+    
 }
 
 .service4:hover,
 .service3:hover,
 .service2:hover,
 .service1:hover {
-    background-color: rgb(176, 184, 184);
+    background-color: rgb(177, 182, 182);
 }
 
 .services-message {
@@ -117,7 +124,7 @@
 }
 
 #back-buttton {
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     padding: 0rem;
 }
 
@@ -143,6 +150,9 @@
 
 }
 
+#About-main-body {
+    display: flex;
+}
 @media all and (min-width :400px) {
     .nav-button-top {
         margin-top: 0px;
