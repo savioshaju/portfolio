@@ -125,7 +125,8 @@ textarea:focus {
         border-radius: .5rem;
         background-color: white;
         margin-bottom: 1rem;
-        width: 90%;
+        margin: 2rem;
+        width: 80%;
         box-sizing: border-box;
         margin-top: 1rem;
     }
@@ -147,6 +148,7 @@ textarea:focus {
         background-color: white;
         margin-bottom: 1rem;
         margin-top: 1rem;
+        margin: 2rem;
     }
     form input,
     form textarea,
