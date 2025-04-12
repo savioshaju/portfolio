@@ -137,3 +137,21 @@ textarea:focus {
         box-sizing: border-box;
     }
 }
+@media screen and (min-width :400px) {
+
+    #contact-form-box {
+
+        padding: 3rem;
+        border: solid rgb(0, 0, 0) 5px;
+        border-radius: .5rem;
+        background-color: white;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+    }
+    form input,
+    form textarea,
+    form button {
+        width: 65%;
+        box-sizing: border-box;
+    }
+}
