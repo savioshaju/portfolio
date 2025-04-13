@@ -116,6 +116,7 @@ textarea:focus {
     outline: none;
 
 }
+
 @media screen and (max-width :400px) {
 
     #contact-form-box {
@@ -138,6 +139,7 @@ textarea:focus {
         box-sizing: border-box;
     }
 }
+
 @media screen and (min-width :400px) {
 
     #contact-form-box {
@@ -150,6 +152,7 @@ textarea:focus {
         margin-top: 1rem;
         margin: 2rem;
     }
+
     form input,
     form textarea,
     form button {

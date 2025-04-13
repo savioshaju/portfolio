@@ -18,12 +18,13 @@
     justify-content: space-evenly;
     flex-wrap: wrap;
     align-items: stretch;
-   
+
 }
+
 .project3,
 .project2,
 .project1 {
-    
+
     transition: background-color 0.3s ease;
     color: black;
     height: 500px;
@@ -47,7 +48,7 @@
     border: 0px;
     margin: 0px;
     background-color: rgb(255, 255, 255);
-    
+
 }
 
 #back-buttton {
@@ -71,13 +72,14 @@
 
 
 #navigation {
-    
+
     background-color: black;
     padding-top: 0px;
     margin-top: 0px;
     border-top: 0cm;
-    
+
 }
+
 .nav-button {
     margin-top: 0px;
     margin-bottom: 0%;
@@ -93,10 +95,11 @@
     cursor: pointer;
     font-size: medium;
 }
+
 .nav-button:hover {
     background-color: gray;
     color: white;
-    
+
 }
 
 #submit-button,
@@ -109,4 +112,26 @@
     font-weight: bold;
     border-radius: 50%;
 
+}
+
+
+#Contact-icon-shortcut {
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    transition: transform 0.3s ease;
+
+
+}
+
+#Contact-icon-shortcut img {
+    height: 4.7rem;
+    width: 4.7rem;
+    cursor: pointer;
+    border-radius: 5rem;
+}
+
+#Contact-icon-shortcut img:hover {
+
+    transform: scale(1.1);
 }

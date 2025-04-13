@@ -36,7 +36,8 @@
     font-size: medium;
 }
 
-.nav-button:hover,.nav-button-top:hover {
+.nav-button:hover,
+.nav-button-top:hover {
     background-color: gray;
     color: white;
 }
@@ -108,7 +109,7 @@
     flex-wrap: wrap;
     align-items: stretch;
     background-color: black;
-    
+
 }
 
 .service4:hover,
@@ -153,6 +154,7 @@
 #About-main-body {
     display: flex;
 }
+
 @media all and (min-width :400px) {
     .nav-button-top {
         margin-top: 0px;
@@ -188,4 +190,25 @@
         font-size: medium;
     }
 
+}
+
+#Contact-icon-shortcut {
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    transition: transform 0.3s ease;
+
+
+}
+
+#Contact-icon-shortcut img {
+    height: 4.7rem;
+    width: 4.7rem;
+    cursor: pointer;
+    border-radius: 5rem;
+}
+
+#Contact-icon-shortcut img:hover {
+
+    transform: scale(1.1);
 }
