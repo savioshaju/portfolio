@@ -212,3 +212,9 @@
 
     transform: scale(1.1);
 }
+#social-media-links img {
+    border-radius: 1rem;
+}
+#social-media-links img:hover {
+    transform: scale(1.5);
+}

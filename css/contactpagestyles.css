@@ -160,3 +160,9 @@ textarea:focus {
         box-sizing: border-box;
     }
 }
+#social-media-links img {
+    border-radius: 1rem;
+}
+#social-media-links img:hover {
+    transform: scale(1.5);
+}
