@@ -7,32 +7,27 @@
 
 #contact-form {
     color: rgb(255, 77, 0);
-
     font-size: 1.2rem;
 }
 
 #contactdetaill {
-
-    padding-left: 20px;
+    padding: 5px;
 }
 
 #back-buttton {
     background-color: rgb(0, 0, 0);
     padding: 0px;
-
 }
 
 
 #cancel-button:hover {
     background-color: rgb(255, 4, 0);
     color: rgb(0, 0, 0);
-
 }
 
 #submit-button:hover {
     background-color: rgb(167, 252, 173);
     color: rgb(0, 0, 0);
-
 }
 
 #submit-button,
@@ -44,7 +39,6 @@
     height: 30px;
     font-weight: bold;
     border-radius: 50%;
-
 }
 
 
@@ -89,13 +83,13 @@
 }
 
 #contact-form-box {
-
     padding: 3rem;
-    border: solid rgb(0, 0, 0) 5px;
     border-radius: .5rem;
+    border: solid rgb(0, 0, 0) 5px;
     background-color: white;
-    margin-bottom: 1rem;
-    margin-top: 1rem;
+    height: 35rem;
+    margin-bottom: 5rem;
+    margin-top: 5rem;
 }
 
 #navigation {
@@ -117,52 +111,86 @@ textarea:focus {
 
 }
 
-@media screen and (max-width :400px) {
-
-    #contact-form-box {
-
-        padding: 3rem;
-        border: solid rgb(0, 0, 0) 5px;
-        border-radius: .5rem;
-        background-color: white;
-        margin-bottom: 1rem;
-        margin: 2rem;
-        width: 80%;
-        box-sizing: border-box;
-        margin-top: 1rem;
-    }
-
-    form input,
-    form textarea,
-    form button {
-        width: 90%;
-        box-sizing: border-box;
-    }
-}
-
-@media screen and (min-width :400px) {
-
-    #contact-form-box {
-
-        padding: 3rem;
-        border: solid rgb(0, 0, 0) 5px;
-        border-radius: .5rem;
-        background-color: white;
-        margin-bottom: 1rem;
-        margin-top: 1rem;
-        margin: 2rem;
-    }
-
-    form input,
-    form textarea,
-    form button {
-        width: 65%;
-        box-sizing: border-box;
-    }
-}
 #social-media-links img {
     border-radius: 1rem;
+    text-decoration: none;
 }
 #social-media-links img:hover {
     transform: scale(1.5);
+}
+
+#cont-footer {
+    background-color: black;
+    position: sticky;
+    bottom: 0;
+}
+
+@media all and (max-width : 769px) {
+    #name,
+#email,
+#mobile,
+#subject,
+#message {
+    background-color: rgb(255, 255, 255);
+    border-radius: 3px;
+    border-bottom: solid black 2px;
+    font-size: 0.7rem;
+    padding-top: 0.2em;
+}
+#contact-form-box {
+
+    padding: 2rem;
+        border: white;
+        height: 30rem;
+    background-color: white;
+    margin-bottom: .8rem;
+    margin-top: .8rem;
+}
+#back-buttton {
+    background-color: rgb(0, 0, 0);
+    padding: 0px;
+}
+#cont-footer {
+    width: auto;
+}
+}
+@media all and (min-width :769px ) and (max-width : 1024px) {
+     
+#name,
+#email,
+#mobile,
+#subject,
+#message {
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border-bottom: solid black 2px;
+    font-size: 1rem;
+    padding-top: 0.5rem;
+}
+
+#contact-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact-form-box {
+
+    padding: 3rem;
+    border: solid rgb(0, 0, 0) 5px;
+    border-radius: .5rem;
+   
+    background-color: white;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+#navigation {
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+
+}
 }
