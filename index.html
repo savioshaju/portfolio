@@ -18,16 +18,24 @@
 
 <body style="margin: 0px">
     <!-- Header Start -->
-    <header>
-        <div id="home">
-            <h1 style="margin: 0%;">Portfolio</h1>
+    <div id=hedder>
+        <header>
+            <div id="home">
+                <h1 style="margin: 0%;">Portfolio</h1>
+            </div>
+        </header>
+        <input type="checkbox" id="menu-toggle" />
+        <label for="menu-toggle" class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+        <div id="navigation-top" class="menu">
+            <div><a href="#About"><button class="nav-button-top">About</button></a></div>
+            <div><a href="Projects.html"><button class="nav-button-top">Projects</button></a></div>
+            <div><a href="Contact.html"><button class="nav-button-top">Contact</button></a></div>
+            <div><a href="#Service"><button class="nav-button-top">Service</button></a></div>
         </div>
-    </header>
-    <div id="navigation-top">
-        <div><a href="#About"><button class="nav-button-top">About</button></a></div>
-        <div><a href="Projects.html"><button class="nav-button-top">Projects</button></a></div>
-        <div><a href="Contact.html"><button class="nav-button-top">Contact</button></a></div>
-        <div><a href="#Service"><button class="nav-button-top">Service</button></a></div>
     </div>
 
     <!-- Header End -->
@@ -39,8 +47,7 @@
                 <h2 style="color: rgb(0, 0, 0);" id="about-tittle">About Me</h2>
                 <div id="About-body">
                     <div id="About-main-body">
-                        <div id="About-body-image"
-                        style="text-align: center;">
+                        <div id="About-body-image" style="text-align: center;">
                             <img src="assets/images/savio.jpg" alt="Profile Picture" height="200rem"
                                 style="border-radius: 50rem;">
                         </div>
@@ -60,7 +67,8 @@
                                 <strong>Java</strong>.
                                 I enjoy working on projects that challenge my skills and help me grow as a developer.
                             </p>
-                            <h3 id="About-para" style="color: rgb(255, 255, 255); padding-top: 1rem; font-size: 1.5rem; ">Interests</h3>
+                            <h3 id="About-para"
+                                style="color: rgb(255, 255, 255); padding-top: 1rem; font-size: 1.5rem; ">Interests</h3>
                             <ul id="About-para" style="padding-left: 2rem;">
                                 <li>Machine Learning & AI</li>
                                 <li>Data Structures & Algorithms (DSA)</li>
@@ -72,7 +80,7 @@
                     <p style="text-align: justify; font-size: 19px;padding-top: 3rem; padding-bottom: 1rem; ">Feel free
                         to connect with me on
                         social media:</p>
-                    <div id = social-media-links>
+                    <div id=social-media-links>
                         <a href="https://www.facebook.com/people/Savio-Shaju/pfbid02YPXDarz9KMAC9PF25euHMgQtUXgojVd47mZKMWTDZJpE7LCcgnfHUiEPhqVJT9jPl/"
                             target="_blank" class="fa fa-facebook">
                             <img id="Facebook-icon" src="assets/images/Facebook_icon.png" width="35" alt="Facebook">
@@ -92,7 +100,7 @@
 
         <!-- banner end-->
         <!-- Service Start -->
-        <section id="Services" class="Services" >
+        <section id="Services" class="Services">
             <h2 style="margin-bottom: 0%; color: rgb(5, 5, 5); " id="Service">Services</h2>
             <p class="services-message">
                 We offer cutting-edge solutions in web development, backend technologies, AI, and data structures to
@@ -127,7 +135,9 @@
         </section>
         <!-- Service End -->
         <div id="Contact-icon-shortcut">
-           <a href="Contact.html"><img  src="https://www.citypng.com/public/uploads/preview/hd-green-round-circle-phone-icon-png-701751695059810shy4vi4gck.png"  alt="Contact-icon-shortcut"></a> 
+            <a href="Contact.html"><img
+                    src="https://www.citypng.com/public/uploads/preview/hd-green-round-circle-phone-icon-png-701751695059810shy4vi4gck.png"
+                    alt="Contact-icon-shortcut"></a>
         </div>
     </main>
 

@@ -4,6 +4,11 @@
     padding: 0;
 }
 
+#menu-toggle {
+    display: none;
+   
+}
+
 #navigation-top {
     background-color: black;
     position: sticky;
@@ -13,24 +18,46 @@
 
 }
 
+.hamburger {
+    display: none;
+    flex-direction: column;
+    width: 30px;
+    height: 25px;
+    justify-content: space-between;
+    cursor: pointer;
+     padding-top: 0.7rem;
+    padding-left: 0.3rem;
+
+}
+
+.hamburger span {
+    display: block;
+    height: 4px;
+    background: #333;
+    border-radius: 2px;
+}
+
 #navigation {
     background-color: black;
     padding-top: 0;
     margin-top: 0;
     border-top: 0;
 }
-.nav-button-top {
-    margin-top: 0px;
-    margin-bottom: 0%;
-    border: none;
-    background-color: black;
-    color: white;
-    width: 20rem;
-    height: 3%;
-    font: bold;
-    margin: auto;
 
+.nav-button-top {
+        margin-top: 0px;
+        margin-bottom: 0%;
+        border: none;
+        background-color: black;
+        color: white;
+        padding: 5px;
+        width: auto;
+        height: auto;
+        font: bold;
+        font-weight: bold;
+        margin: auto;
 }
+
 .nav-button {
     margin-top: 0px;
     margin-bottom: 0%;
@@ -83,9 +110,11 @@
     padding-top: 1.5rem;
     text-align: center;
 }
-
-#home {
+#hedder {
     background-color: aquamarine;
+}
+#home {
+    
     border: none;
     margin-top: 0;
     border-bottom: none;
@@ -165,6 +194,7 @@
 #About-main-body {
     display: flex;
 }
+
 #Contact-icon-shortcut {
     position: fixed;
     bottom: 1rem;
@@ -185,30 +215,16 @@
 
     transform: scale(1.1);
 }
+
 #social-media-links img {
     border-radius: 1rem;
 }
+
 #social-media-links img:hover {
     transform: scale(1.5);
 }
 
-@media all and (min-width :400px) {
-    .nav-button-top {
-        margin-top: 0px;
-        margin-bottom: 0%;
-        border: none;
-        background-color: black;
-        color: white;
-        padding: 5px;
-        width: 6.2rem;
-        height: 3rem;
-        font: bold;
-        margin: auto;
-        box-sizing: border-box;
-        cursor: pointer;
-        font-size: medium;
-    }
-}
+
 
 @media all and (max-width : 768px) {
     .nav-button-top {
@@ -218,8 +234,8 @@
         background-color: black;
         color: white;
         padding: 5px;
-        width: 5rem;
-        height: 4rem;
+        width: auto;
+        height: auto;
         font: bold;
         font-weight: bold;
         margin: auto;
@@ -227,33 +243,64 @@
         cursor: pointer;
         font-size: medium;
     }
+    
+    #Contact-icon-shortcut img {
+        height: 3.7rem;
+        width: 3.7rem;
+        cursor: pointer;
+        border-radius: 5rem;
+    }
+    
+    #About-para {
+        font-weight: bold;
+        text-align: justify;
+        font-size: 1.15rem;
+        padding-left: 1rem;
+    }
+    
+    #About-main-body {
+        display: grid;
+    }
+    
+    .services-container {
+        display: grid;
+        justify-content: space-evenly;
+        background-color: black;
+        
+    }
+    #hedder {
+        display: flex;
+        flex-direction: row;
+        position: relative;
+    }
+    .hamburger {
+        display: flex;
+        margin: 10px;
+        position: absolute;
+        right: 0%;
+    }
+    #navigation-top {
+    display: none;
+    position: absolute;
+    flex-direction: column;
+    background: #f4f4f4;
+    padding: 0px;
+    top: 4rem;
+    right: 0%;
+  }
 
-#Contact-icon-shortcut img {
-    height: 3.7rem;
-    width: 3.7rem;
-    cursor: pointer;
-    border-radius: 5rem;
-}
-#About-para {
-    font-weight: bold;
-    text-align: justify;
-    font-size: 1.15rem;
-    padding-left: 1rem;
-}
 
-#About-main-body {
-    display: grid;
-}
-.services-container {
-    display: grid;
-    justify-content: space-evenly;
-    background-color: black;
+    #menu-toggle:checked
+    +.hamburger+#navigation-top {
+        display: flex;
+    }
+
 
 }
-}
-@media all and (min-width :769px ) and (max-width : 1024px) {
 
-        .nav-button-top {
+@media all and (min-width :769px) and (max-width : 1024px) {
+
+    .nav-button-top {
         margin-top: 0px;
         margin-bottom: 0%;
         border: none;
@@ -269,28 +316,30 @@
         font-size: medium;
     }
 
-#Contact-icon-shortcut img {
-    height: 4rem;
-    width: 4rem;
-    cursor: pointer;
-    border-radius: 5rem;
-}
-#About-para {
-    font-weight: bold;
-    text-align: justify;
-    font-size: 1.25rem;
-    padding-left: 1rem;
+    #Contact-icon-shortcut img {
+        height: 4rem;
+        width: 4rem;
+        cursor: pointer;
+        border-radius: 5rem;
+    }
+
+    #About-para {
+        font-weight: bold;
+        text-align: justify;
+        font-size: 1.25rem;
+        padding-left: 1rem;
+    }
+
+    #About-main-body {
+        display: grid;
+    }
+
+
 }
 
-#About-main-body {
-    display: grid;
-}
-    
+@media all and (orientation : landscape) {
 
-}
-@media all and (orientation : landscape ) {
-
-        .nav-button-top {
+    .nav-button-top {
         margin-top: 0px;
         margin-bottom: 0%;
         border: none;
@@ -306,21 +355,22 @@
         font-size: medium;
     }
 
-#Contact-icon-shortcut img {
-    height: 4rem;
-    width: 4rem;
-    cursor: pointer;
-    border-radius: 5rem;
-}
-#About-para {
-    font-weight: bold;
-    text-align: justify;
-    font-size: 1.25rem;
-    padding-left: 1rem;
-}
+    #Contact-icon-shortcut img {
+        height: 4rem;
+        width: 4rem;
+        cursor: pointer;
+        border-radius: 5rem;
+    }
 
-#About-main-body {
-    display: flexbox;
-}
-    
+    #About-para {
+        font-weight: bold;
+        text-align: justify;
+        font-size: 1.25rem;
+        padding-left: 1rem;
+    }
+
+    #About-main-body {
+        display: flexbox;
+    }
+
 }
