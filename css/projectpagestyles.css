@@ -87,7 +87,7 @@
     background-color: black;
     color: white;
     padding: 5px;
-    width: 10rem;
+    width: 15rem;
     height: 3rem;
     font: bold;
     margin: auto;
@@ -99,8 +99,7 @@
 .nav-button:hover {
     background-color: gray;
     color: white;
-  width: 100px;
-    height: 30px;
+
 }
 
 #submit-button,
@@ -156,7 +155,7 @@
 
     transition: background-color 0.3s ease;
     color: black;
-    height: 500px;
+    height: 420px;
     width: 310px;
     border: solid black 2px;
     margin: 0%;
