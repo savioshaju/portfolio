@@ -226,14 +226,15 @@
 
 
 
-@media all and (max-width : 768px) {
+
+@media all and  (max-width : 768px) {
     .nav-button-top {
         margin-top: 0px;
         margin-bottom: 0%;
         border: none;
         background-color: black;
         color: white;
-        padding: 5px;
+        padding: 3px;
         width: auto;
         height: auto;
         font: bold;
@@ -241,7 +242,7 @@
         margin: auto;
         box-sizing: border-box;
         cursor: pointer;
-        font-size: medium;
+        font-size: small;
     }
     
     #Contact-icon-shortcut img {
@@ -371,6 +372,17 @@
 
     #About-main-body {
         display: flexbox;
+    }
+
+}
+
+
+@media all and (max-width: 619px) {
+    .nav-button-top {
+        width: 100%;
+        font-size: 0.85rem;
+        padding: 8px 12px;
+        text-align: center;
     }
 
 }
